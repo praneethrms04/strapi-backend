@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users",
+  "info": {
+    "name": "users",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "room": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "socketId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_messages",
+  "info": {
+    "name": "ChatMessages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "chatRoom": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "date"
+    }
+  }
+}
